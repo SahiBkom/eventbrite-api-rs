@@ -1,0 +1,15 @@
+[package]
+name = "eventbrite-api-rs"
+version = "0.1.0"
+authors = ["Johan Govers <johan@otherweb.eu>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "*"
+serde = { version = "1.0", features = ["derive"] }
+failure = "0.1.5"
+dotenv = "0.14.1"
+
+[build-dependencies]
+api_blueprint_to_rust = { git = "ssh://git@github.com:22/SahiBkom/api-blueprint-to-rust.git" }
+patch = "0.5.0"

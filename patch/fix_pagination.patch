@@ -1,0 +1,11 @@
+-- ./target/debug/build/eventbrite-api-rs-ac277732f68aa398/out/eventbriteapiv3public.rs	2019-08-11 12:35:47.128579870 +0200
++++ ./target/debug/build/eventbrite-api-rs-ac277732f68aa398/out/eventbriteapiv3public_2.rs	2019-08-11 19:28:58.354358504 +0200
+@@ -669,7 +669,7 @@
+ 
+ #[derive(Debug, Serialize, Deserialize)]
+ pub struct Pagination {
+-    pub continuation: String,
++    pub continuation: Option<String>,
+     pub has_more_items: bool,
+     pub object_count: i64,
+     pub page_count: i64,
