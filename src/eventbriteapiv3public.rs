@@ -986,7 +986,19 @@ pub struct multipart_text {
 // =====================
 
 #[derive(Debug, Serialize, Deserialize)]
-pub struct Address {}
+pub struct Address {
+    pub address_1: Option<String>,
+    pub address_2: Option<String>,
+    pub city: Option<String>, 
+    pub region: Option<String>,
+    pub postal_code: Option<String>,
+    pub country: Option<String>,
+    pub latitude: Option<f64>,
+    pub longitude: Option<f64>,
+    pub localized_address_display: Option<String>,
+    pub localized_area_display: Option<String>,
+    pub localized_multi_line_address_display: Option<Vec<String>>,
+}
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct OfflineSettings {}
