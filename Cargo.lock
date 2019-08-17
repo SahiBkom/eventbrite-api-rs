@@ -283,7 +283,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "eventbrite-api-rs"
+name = "eventbrite_api"
 version = "0.1.0"
 dependencies = [
  "api_blueprint_to_rust 0.1.0 (git+ssh://git@github.com:22/SahiBkom/api-blueprint-to-rust.git)",

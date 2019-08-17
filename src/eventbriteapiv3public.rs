@@ -989,7 +989,7 @@ pub struct multipart_text {
 pub struct Address {
     pub address_1: Option<String>,
     pub address_2: Option<String>,
-    pub city: Option<String>, 
+    pub city: Option<String>,
     pub region: Option<String>,
     pub postal_code: Option<String>,
     pub country: Option<String>,

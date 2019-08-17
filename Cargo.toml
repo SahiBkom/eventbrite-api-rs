@@ -1,5 +1,5 @@
 [package]
-name = "eventbrite-api-rs"
+name = "eventbrite_api"
 version = "0.1.0"
 authors = ["Johan Govers <johan@otherweb.eu>"]
 edition = "2018"
